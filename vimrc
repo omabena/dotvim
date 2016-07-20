@@ -1,3 +1,5 @@
+execute pathogen#infect() 
+
 set smartindent
 set tabstop=4
 set softtabstop=4
@@ -26,8 +28,6 @@ autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType c set omnifunc=ccomplete#Complete
 autocmd BufNewFile,BufRead COMMIT_EDITMSG setlocal spell
 
-" Pathogen 
-execute pathogen#infect() 
 syntax on 
 filetype plugin indent on
 
