@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/niuq/Trabajo/escuelasceroresiduos/theme_html/bootstrap-3.3.6/custom'
+let g:netrw_dirhist_2='/home/niuq/Trabajo/escuelasceroresiduos/theme_html/bootstrap-3.3.6'
+let g:netrw_dirhist_3='/home/niuq/Trabajo/escuelasceroresiduos/theme_html/css/custom'
+let g:netrw_dirhist_4='/home/niuq/Trabajo/escuelasceroresiduos/theme_html/css'
+let g:netrw_dirhist_5='/home/niuq/Trabajo/escuelasceroresiduos/theme_html'
