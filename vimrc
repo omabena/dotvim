@@ -18,6 +18,8 @@ set autoindent
 set novb
 set showcmd
 set backspace=indent,eol,start
+
+"Enable autocompletion 
 syntax enable
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
@@ -31,4 +33,13 @@ autocmd BufNewFile,BufRead COMMIT_EDITMSG setlocal spell
 syntax on 
 filetype plugin indent on
 
+"mapping 00 to fast jumping up one line in insert mode
 inoremap OO <ESC>O
+
+"powerline configs
+let g:Powerline_symbols = 'fancy'
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+set laststatus=2
+set t_Co=256
